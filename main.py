@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Largest Number App", page_icon=":bar_chart:")
 
 st.header("Largest Number App")
-st.write("A simple app to find the largest of three numbers. Made by 22f3001390(Devagya)")
+st.write("A simple app to find the largest of three numbers. Made by 22f2001349(Rahul)")
 
 with st.form(key="input_form"):
     n1 = st.number_input("Enter first number:", step=1)
